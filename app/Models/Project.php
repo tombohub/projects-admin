@@ -9,5 +9,4 @@ class Project extends Model
 {
     use HasFactory;
     protected $fillable = ['name', 'github_repo_url', 'website_url', 'is_published'];
-    protected $casts = ['is_published' => 'boolean'];
 }
